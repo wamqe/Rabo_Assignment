@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Employees Information Management]">
+  <test thread-count="5" name="Test Methods(failed)">
+    <classes>
+      <class name="employee.EmployeeTest">
+        <methods>
+          <include name="setup"/>
+          <include name="afterSuite"/>
+          <include name="teardown"/>
+          <include name="beforeSuite"/>
+          <include name="testNonLoggedInDeleteEmployee"/>
+        </methods>
+      </class> <!-- employee.EmployeeTest -->
+    </classes>
+  </test> <!-- Test Methods(failed) -->
+</suite> <!-- Failed suite [Employees Information Management] -->

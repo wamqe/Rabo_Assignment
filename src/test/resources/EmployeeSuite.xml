@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Employees Information Management">
+	<test name="Test Methods">
+
+		<classes>
+			<class name="employee.EmployeeTest">
+				<methods>
+					<include name="testCreateEmployee" />
+					<include name="testCreateEmployeeArray" />
+					<include name="testCreateEmployeeList" />
+					<include name="testGetEmployeeByName" />
+					<include name="testLoginEmployee" />
+					<include name="testLogoutEmployee" />
+					<include name="testUpdateEmployee" />					
+					<include name="testNonLoggedInUpdateEmployee" />
+					<include name="testDeleteEmployee" />
+					<include name="testNonLoggedInDeleteEmployee" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 

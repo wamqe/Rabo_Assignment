@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Employees Information Management" duration-ms="4379" started-at="2020-06-10T08:59:50Z" finished-at="2020-06-10T08:59:55Z">
+    <groups>
+    </groups>
+    <test name="Test Methods" duration-ms="4379" started-at="2020-06-10T08:59:50Z" finished-at="2020-06-10T08:59:55Z">
+      <class name="employee.EmployeeTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:employee.EmployeeTest@179ee36b]" name="beforeSuite" is-config="true" duration-ms="468" started-at="2020-06-10T08:59:50Z" finished-at="2020-06-10T08:59:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:employee.EmployeeTest@179ee36b]" name="setup" is-config="true" duration-ms="991" started-at="2020-06-10T08:59:50Z" finished-at="2020-06-10T08:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCreateEmployee()[pri:0, instance:employee.EmployeeTest@179ee36b]" name="testCreateEmployee" duration-ms="1840" started-at="2020-06-10T08:59:51Z" finished-at="2020-06-10T08:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateEmployee -->
+        <test-method status="PASS" signature="testCreateEmployeeArray()[pri:0, instance:employee.EmployeeTest@179ee36b]" name="testCreateEmployeeArray" duration-ms="181" started-at="2020-06-10T08:59:53Z" finished-at="2020-06-10T08:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateEmployeeArray -->
+        <test-method status="PASS" signature="testCreateEmployeeList()[pri:0, instance:employee.EmployeeTest@179ee36b]" name="testCreateEmployeeList" duration-ms="222" started-at="2020-06-10T08:59:53Z" finished-at="2020-06-10T08:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateEmployeeList -->
+        <test-method status="PASS" signature="testGetEmployeeByName()[pri:0, instance:employee.EmployeeTest@179ee36b]" name="testGetEmployeeByName" duration-ms="727" started-at="2020-06-10T08:59:54Z" finished-at="2020-06-10T08:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmployeeByName -->
+        <test-method status="PASS" signature="testLoginEmployee()[pri:0, instance:employee.EmployeeTest@179ee36b]" name="testLoginEmployee" duration-ms="71" started-at="2020-06-10T08:59:54Z" finished-at="2020-06-10T08:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginEmployee -->
+        <test-method status="PASS" signature="testLogoutEmployee()[pri:0, instance:employee.EmployeeTest@179ee36b]" name="testLogoutEmployee" duration-ms="49" started-at="2020-06-10T08:59:54Z" finished-at="2020-06-10T08:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutEmployee -->
+        <test-method status="PASS" signature="testUpdateEmployee()[pri:0, instance:employee.EmployeeTest@179ee36b]" name="testUpdateEmployee" duration-ms="98" started-at="2020-06-10T08:59:55Z" finished-at="2020-06-10T08:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateEmployee -->
+        <test-method status="PASS" signature="testNonLoggedInUpdateEmployee()[pri:0, instance:employee.EmployeeTest@179ee36b]" name="testNonLoggedInUpdateEmployee" duration-ms="48" started-at="2020-06-10T08:59:55Z" finished-at="2020-06-10T08:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonLoggedInUpdateEmployee -->
+        <test-method status="PASS" signature="testDeleteEmployee()[pri:0, instance:employee.EmployeeTest@179ee36b]" name="testDeleteEmployee" duration-ms="23" started-at="2020-06-10T08:59:55Z" finished-at="2020-06-10T08:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteEmployee -->
+        <test-method status="PASS" signature="testNonLoggedInDeleteEmployee()[pri:0, instance:employee.EmployeeTest@179ee36b]" name="testNonLoggedInDeleteEmployee" duration-ms="49" started-at="2020-06-10T08:59:55Z" finished-at="2020-06-10T08:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonLoggedInDeleteEmployee -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:employee.EmployeeTest@179ee36b]" name="teardown" is-config="true" duration-ms="9" started-at="2020-06-10T08:59:55Z" finished-at="2020-06-10T08:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:employee.EmployeeTest@179ee36b]" name="afterSuite" is-config="true" duration-ms="1" started-at="2020-06-10T08:59:55Z" finished-at="2020-06-10T08:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- employee.EmployeeTest -->
+    </test> <!-- Test Methods -->
+  </suite> <!-- Employees Information Management -->
+</testng-results>
